@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>{{title}}</h1>
+
+
+
+<div *ngIf="books.length === 0"> <h2> no Data :(</h2></div>
+
+<div class="book-table" *ngIf="books.length > 0">
+  <div class="book-title-row">
+    <span>Title</span>
+    <span>Price</span>
+  </div>
+  <div *ngFor="let book of books">
+    <div class="book-row">
+      <span>{{book.title}}</span>
+      <span>{{book.price}}</span>
+    </div>
+  </div>
+</div>
+
+</div>

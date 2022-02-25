@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+// .book-table {
+//   width: 200px;
+//   display: flex;
+//   flex-direction: column;
+//   align-content: center;
+//   align-items: center;
+// }
+
+.book-title-row {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.book-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 150px;
+}
